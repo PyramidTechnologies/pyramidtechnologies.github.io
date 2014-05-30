@@ -11,9 +11,16 @@ summary: Pyramid Technologies has launched its developer community
 image: logo_header.jpg
 ---
 
+<!-- Content -->
 <div class="row">
 	<div class="span9 columns">
-	  
+	  <p>The Pyramid Developers Team is pleased to annouce our Community project. We will be sharing examples and all the latest news regarding our efforts to make your integration with our products even easier.</p>
+		<p>&nbsp;</p>
+		<p>Stay tuned for the first installment of demos:</p>
+		<ul>
+		<li>Python RS-232: A Raspberry Pi project</li>
+		<li>VB .NET RS-232: A classic desktop example</li>
+		</ul>
 	</div>
 </div> 
 
