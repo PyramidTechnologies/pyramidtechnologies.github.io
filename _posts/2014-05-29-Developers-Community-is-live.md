@@ -39,8 +39,9 @@ image: logo_header.jpg
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'ptidevelopers'; // required: replace example with your forum shortname
-			var disqus_identifier = {{ page.url }};
-			var disqus_url = {{ page.url }};
+			var disqus_identifier = '{{ page.url }}';
+			var disqus_url = 'http://pyramidtechnologies.github.com{{ page.url }}';
+ 
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
