@@ -13,7 +13,7 @@ image: logo_header.jpg
 
 <!-- Content -->
 <div class="row">
-	<div class="span9 columns">
+	<div class="col-md-9 columns">
 	  <p>The Pyramid Developers Team is pleased to annouce our Community project. We will be sharing examples and all the latest news regarding our efforts to make your integration with our products even easier.</p>
 		<p>&nbsp;</p>
 		<p>Stay tuned for the first installment of demos:</p>
@@ -31,16 +31,16 @@ image: logo_header.jpg
 	</div>
 </div>
 	
-<div class="row">
-	<div class="span9 columns">    
+<div class="row">	
+    <div class="span9 columns">    
 		<h2>Comments Section</h2>
 	    <p>Feel free to comment on the post but keep it clean and on topic.</p>	
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'ptidevelopers'; // required: replace example with your forum shortname
-			var disqus_identifier = '{{ page.url }}';
-			var disqus_url = 'http://pyramidtechnologies.github.com{{ page.url }}';
+			var disqus_identifier = {{ page.url }};
+			var disqus_url = {{ page.url }};
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
