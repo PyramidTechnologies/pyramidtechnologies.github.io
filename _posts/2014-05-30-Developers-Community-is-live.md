@@ -5,7 +5,7 @@ category: Coding
 tags: PTI OpenSource
 year: 2014
 month: 5
-day: 29
+day: 30
 published: true
 summary: Pyramid Technologies has launched its developer community
 image: logo_header.jpg
@@ -16,10 +16,10 @@ image: logo_header.jpg
 	<div class="col-md-9 columns">
 	  <p>The Pyramid Developers Team is pleased to annouce our Community project. We will be sharing examples and all the latest news regarding our efforts to make your integration with our products even easier.</p>
 		<p>&nbsp;</p>
-		<p>Stay tuned for the first installment of demos:</p>
+		<p>Please enjoy our first offerings:</p>
 		<ul>
-		<li>Python RS-232: A Raspberry Pi project</li>
-		<li>VB .NET RS-232: A classic desktop example</li>
+		    <li><a href="https://github.com/PyramidTechnologies/Python-RS-232" rel="tooltip" title="Open Github Project" target="_blank">Python RS-232: A Raspberry Pi project</a></li>
+			<li><a href="https://github.com/PyramidTechnologies/VB-RS-232" rel="tooltip" title="Open Github Project" target="_blank">VB .NET RS-232: A classic desktop example</a></li>
 		</ul>
 	</div>
 </div> 
