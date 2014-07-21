@@ -42,8 +42,12 @@ Supported Operating Systems
 
 <p>&nbsp;</p>
 
-<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a> The API documentation is available <a href="/api" target="_blank">here</a>.</p>
-
+<div class="panel panel-success">
+  <div class="panel-body">
+<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a> The API documentation is available <a href="/api" target="_blank">here</a>.
+<a href="/api/release/PTalk.jar" target="_blank"><img alt="jar_icon" src="/img/posts/jar_icon.png"></a> The API jar file is available <a href="/api/release/PTalk.jar" target="_blank">here</a>.</p>
+  </div>
+</div>
 <p>&nbsp;</p>
 
 <p>For our first round of APIs we have targetted the Java platform. Entrepenours and developers work on all platforms and so should our product. Many people have purchased our Apex and Trilogy model bill validators and requested sample code or APIs. We are making good on our promise to deliver.</p>
