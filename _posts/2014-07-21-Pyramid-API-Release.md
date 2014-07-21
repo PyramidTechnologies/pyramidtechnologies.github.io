@@ -97,7 +97,7 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <p>&nbsp;</p>
 
 <h2>Applet Sample</h2>
-<p><a href="/api" target="_blank"><img rel="tooltip" title="Click to try live demo" target="_blank" alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" href="api/demo" /></a></p>
+<p><a href="/api/demo" target="_blank"><img rel="tooltip" title="Click to try live demo" target="_blank" alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" href="api/demo" /></a></p>
 <p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
 
 <p>This example demonstrates the event support and device autodetection available with our API. <br>
