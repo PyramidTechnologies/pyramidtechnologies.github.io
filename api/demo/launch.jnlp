@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>PTalkApplet</title>
+        <vendor>cory</vendor>
+        <homepage href=""/>
+        <description>PTalkApplet</description>
+        <description kind="short">PTalkApplet</description>
+    <icon href="pti_alpha.png" kind="default"/>
+</information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="PTalkApplet.jar" main="true"/>
+    <jar href="lib/PTalk.jar"/>
+<jar href="lib/jsoup-1.7.3.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <applet-desc height="400" main-class="com.pyramidacceptors.ptalk.applet.Main" name="PTalkApplet" width="580">
+    </applet-desc>
+</jnlp>

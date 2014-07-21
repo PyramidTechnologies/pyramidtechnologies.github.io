@@ -18,11 +18,32 @@ image: logo_1.jpg
 	  
 <h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
 
-<p>The PTI engineering team is super excited to announce the release of their API. Our goal is to provide you, the developer, with all the tools you need in order to make awesome things. We&#39;ve put together a few samples to demonstrate the power of these APIs and hopefully you will find them inspiring.</p>
+<p>The PTI engineering team is super excited to announce the release of their API. Our goal is to provide you, the developer, with all the tools you need in order to make awesome things. We have also put together a few samples to demonstrate the 
+power of these APIs and hopefully you will find them inspiring. All you need is a copy of PTalk.jar to get started, a Pyramid bill validator, and serial connection to your PC.</p>
+
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+Supported Bill Validators
+  </a>
+  <a href="http://pyramidacceptors.com/apex-7000/" class="list-group-item">Apex 7000</a>
+  <a href="http://pyramidacceptors.com/trilogy-series/" class="list-group-item">Trilogy - <i>RS-232 firmware required</i></a>
+  <a href="http://pyramidacceptors.com/curve-series/" class="list-group-item">Curve - <i>RS-232 firmware required</i></a>
+  <a href="http://pyramidacceptors.com/apex-series/" class="list-group-item">Apex 5000</a>
+</div>
+
+<div class="list-group">
+  <a class="list-group-item active">
+Supported Operating Systems
+  </a>
+  <a class="list-group-item">Windows: XP SP3, Vista SP2, 7, 8.1 - <i>32/64 bit support for al</i></a>
+  <a class="list-group-item">OSX 10.7 (Intel based) or better</a>
+  <a class="list-group-item">Linux - Debian, Ubuntu, Arch, Fedora, Redhat... pretty much all of them(32/64 bit)</a>
+</div>
 
 <p>&nbsp;</p>
 
-<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"/></a> The API documentation is available <a href="/api" target="_blank">here</a>.</p>
+
+<p><a href="/api" target="_blank"></a> The API documentation is available <a href="/api" target="_blank">here . <img src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></a></p>
 
 <p>&nbsp;</p>
 
@@ -56,13 +77,26 @@ acceptor.connect();
 <p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
 
 <p>This example demonstrates the event support and device autodetection available with our API. <br>
+<br>
+<div class="panel panel-info">
+  <div class="panel-body">
+A working sample is available <a href="/api/demo" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p></p> This requires a bill validator and serial connection between your PC and the bill validator.<br>
+  </div>
+</div>
+<div class="panel panel-info">
+  <div class="panel-body">
 The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-applet-sample" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p></p>
+  </div>
+</div>
 
 <h2>Desktop Sample</h2>
  <p><img alt="pyramid_api_desktop_sample.png" class="right" src="/img/posts/pyramid_api_desktop_sample.png" /></p>
 <p>This is a more traditional example based on a JFrame. This simply enables the bill validator and reports and event or state change. This sample is good for debugging your application to ensure that your product idea will be rock-solid.</p>
+<div class="panel panel-info">
+  <div class="panel-body">
 The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-desktop-sample" rel="tooltip" title="Java API Sample - Desktop" target="_blank">here</a>.</p></p>
-
+  </div>
+</div>
 <h2>Input Welcome</h2>
 
 <p>Here at Pyramid Technologies we value customer ideas and innovation. 
