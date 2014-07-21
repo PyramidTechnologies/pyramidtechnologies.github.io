@@ -42,8 +42,7 @@ Supported Operating Systems
 
 <p>&nbsp;</p>
 
-
-<p><a href="/api" target="_blank"></a> The API documentation is available <a href="/api" target="_blank">here . <img src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></a></p>
+<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a> The API documentation is available <a href="/api" target="_blank">here</a>.</p>
 
 <p>&nbsp;</p>
 
@@ -70,10 +69,35 @@ acceptor.connect();
 
 <p>&nbsp;</p>
 
-<p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and event configure event handlers.&nbsp;</p>
+<p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and even configure your event handlers.&nbsp;</p>
+
+<h2>More feature-rich Example</h2>
+
+<div style="background:#eee; border:1px solid #ccc; padding:5px 10px">
+<pre>
+<code><em><a id="sample" name="sample"></a>...
+// Create instance of bill acceptor
+acceptor = PyramidAcceptor.valueOfRS232(RS232Configuration.INSTANCE, 
+		"COM4", APIConstants.BAUDRATE_9600, APIConstants.DATABITS_7,
+		APIConstants.STOPBITS_1, APIConstants.PARITY_EVEN);		
+// Connect! this handles all the handsahking
+acceptor.connect();
+
+// Set poll rate to 50 ms
+acceptor.setPollRate(50);
+
+// Enable only bills 1 and 2
+RS232Configuration.INSTANCE.setEnableMask(0x3);
+...
+</em></code>
+</pre>
+</div>
+<p>The demonstrates the configuration parameters for a PyramidAcceptor object as well as the bill enable masking.&nbsp;</p>
+
+<p>&nbsp;</p>
 
 <h2>Applet Sample</h2>
- <p><img alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" /></p>
+<p><a href="/api" target="_blank"><img rel="tooltip" title="Click to try live demo" target="_blank" alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" href="api/demo" /></a></p>
 <p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
 
 <p>This example demonstrates the event support and device autodetection available with our API. <br>
@@ -99,8 +123,8 @@ The source code for this sample is available <a href="https://github.com/Pyramid
 </div>
 <h2>Input Welcome</h2>
 
-<p>Here at Pyramid Technologies we value customer ideas and innovation. 
-<br>If you see a need that our API is not providing, feel free to <a href="https://github.com/PyramidTechnologies/Feedback/issues/new">let us know</a>.</p>
+<p>Here at Pyramid Technologies, we value customer ideas and innovation. 
+<br>If you require a functionality that our API is not providing, feel free to <a href="https://github.com/PyramidTechnologies/Feedback/issues/new">let us know</a>.</p>
 
 <p>&nbsp;</p>
 
