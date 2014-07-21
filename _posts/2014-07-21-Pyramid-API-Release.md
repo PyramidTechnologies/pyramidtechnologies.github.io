@@ -6,7 +6,7 @@ tags: RS-232 Java
 year: 2014
 month: 7
 day: 18
-published: false
+published: true
 summary: Pyramid Technologies release Java RS-232 API
 image: logo_1.jpg
 ---
@@ -16,17 +16,21 @@ image: logo_1.jpg
 	<div class="col-md-9 columns">
 	<!-- CONTENT HERE -->
 	  
-<h1>Pyramid Technologies API Released</h1>
-
-<p><img alt="logo_1" class="right" src="https://googledrive.com/host/0B79TkjL8Nm20QjU0UGhObnBTUE0/logo_1.jpg" style="height:102px; line-height:1.6; width:400px" /></p>
+<h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
 
 <p>The PTI engineering team is super excited to announce the release of their API. Our goal is to provide you, the developer, with all the tools you need in order to make awesome things. We&#39;ve put together a few samples to demonstrate the power of these APIs and hopefully you will find them inspiring.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"/></a> The API documentation is available <a href="/api" target="_blank">here</a>.</p>
 
 <p>&nbsp;</p>
 
 <p>For our first round of APIs we have targetted the Java platform. Entrepenours and developers work on all platforms and so should our product. Many people have purchased our Apex and Trilogy model bill validators and requested sample code or APIs. We are making good on our promise to deliver.</p>
 
 <p>&nbsp;</p>
+
+<h2>Basic Example</h2>
 
 <p>The simplest example can be constructed with just two lines of code.&nbsp;</p>
 
@@ -38,16 +42,37 @@ PyramidAcceptor</em> acceptor = PyramidAcceptor.valueOfRS232();
 <em> 
 // Connect! this handles all the hand shaking and starts up the acceptor</em>
 acceptor.connect();
-</code></pre>
-
-<pre>
-<code><em>...</em></code></pre>
+...
+</em></code>
+</pre>
 </div>
 
 <p>&nbsp;</p>
 
-<p>Of course this is just a basic example. You are free to specify your own port name, port configuration, and event configure event handlers.&nbsp;</p>
-	  
+<p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and event configure event handlers.&nbsp;</p>
+
+<h2>Applet Sample</h2>
+ <p><img alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" /></p>
+<p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
+
+<p>This example demonstrates the event support and device autodetection available with our API. <br>
+The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-applet-sample" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p></p>
+
+<h2>Desktop Sample</h2>
+ <p><img alt="pyramid_api_desktop_sample.png" class="right" src="/img/posts/pyramid_api_desktop_sample.png" /></p>
+<p>This is a more traditional example based on a JFrame. This simply enables the bill validator and reports and event or state change. This sample is good for debugging your application to ensure that your product idea will be rock-solid.</p>
+The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-desktop-sample" rel="tooltip" title="Java API Sample - Desktop" target="_blank">here</a>.</p></p>
+
+<h2>Input Welcome</h2>
+
+<p>Here at Pyramid Technologies we value customer ideas and innovation. 
+<br>If you see a need that our API is not providing, feel free to <a href="https://github.com/PyramidTechnologies/Feedback/issues/new">let us know</a>.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
 	  
 	  
 	<!-- END CONTENT-->  
