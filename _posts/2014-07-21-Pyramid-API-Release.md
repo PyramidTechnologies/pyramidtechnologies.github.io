@@ -7,7 +7,7 @@ year: 2014
 month: 7
 day: 18
 published: true
-summary: Pyramid Technologies release Java RS-232 API
+summary: Pyramid Technologies releases Java RS-232 API
 image: logo_1.jpg
 ---
 
