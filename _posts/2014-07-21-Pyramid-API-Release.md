@@ -40,12 +40,14 @@ Supported Operating Systems
 </div>
 
 <p>&nbsp;</p>
-<div class="list-group">
-  <a href="" class="list-group-item active">
-Supported Bill Validators
-  </a>
-  <a href="/api" target="_blank" class="list-group-item">The API documentation is available here.<img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a>
-  <a href="/api/release/PTalk.jar" class="list-group-item">The API jar file is available here.<img alt="jar_icon" src="/img/posts/jar_icon.png"></a>
+<div class="container" >
+	<ul class="list-group">
+  	<a href="" class="list-group-item active">
+	Supported Bill Validators
+  	</a>
+  	<li><a href="/api" target="_blank" class="list-group-item">The API documentation is available here.<img 	alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a></li>
+  	<li><a href="/api/release/PTalk.jar" class="list-group-item">The API jar file is available here.<img alt="jar_icon" 	src="/img/posts/jar_icon.png"></a></li>
+	</div>
 </div>
 <br>
 
