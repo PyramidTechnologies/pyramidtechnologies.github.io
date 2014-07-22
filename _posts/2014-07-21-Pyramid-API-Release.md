@@ -18,9 +18,8 @@ image: logo_1.jpg
 	  
 <h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
 
-<p>The PTI engineering team is super excited to announce the release of their API. Our goal is to provide you, the developer, with all the tools you need in order to make awesome things. We have also put together a few samples to demonstrate the 
-power of these APIs and hopefully you will find them inspiring. All you need is a copy of PTalk.jar to get started, a Pyramid bill validator, and serial connection to your PC.</p>
-
+<p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you need in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs and hopefully you will find them inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
+<br>
 <div class="list-group">
   <a href="#" class="list-group-item active">
 Supported Bill Validators
@@ -41,20 +40,23 @@ Supported Operating Systems
 </div>
 
 <p>&nbsp;</p>
-
-<div class="panel panel-success">
-  <div class="panel-body">
-<p><a href="/api" target="_blank"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a> The API documentation is available <a href="/api" target="_blank">here</a>.
-<a href="/api/release/PTalk.jar" target="_blank"><img alt="jar_icon" src="/img/posts/jar_icon.png"></a> The API jar file is available <a href="/api/release/PTalk.jar" target="_blank">here</a>.</p>
-  </div>
+<div class="list-group">
+  <a href="" class="list-group-item active">
+Supported Bill Validators
+  </a>
+  <a href="/api" target="_blank" class="list-group-item"><img alt="javadoc_icon" src="/img/posts/javadoc_icon.png">The API documentation is available here.</a>
+  <a href="/api/release/PTalk.jar" class="list-group-item"><img alt="jar_icon" src="/img/posts/jar_icon.png">The API jar file is available here.</a>
 </div>
+<br>
+
 <p>&nbsp;</p>
 
+<h2>Neat Stuff</h2>
 <p>For our first round of APIs we have targetted the Java platform. Entrepenours and developers work on all platforms and so should our product. Many people have purchased our Apex and Trilogy model bill validators and requested sample code or APIs. We are making good on our promise to deliver.</p>
 
 <p>&nbsp;</p>
 
-<h2>Basic Example</h2>
+<h3>Basic Example</h3>
 
 <p>The simplest example can be constructed with just two lines of code.&nbsp;</p>
 
@@ -73,9 +75,9 @@ acceptor.connect();
 
 <p>&nbsp;</p>
 
-<p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and even configure your event handlers.&nbsp;</p>
+<p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and even configure event handlers.&nbsp;</p>
 
-<h2>More feature-rich Example</h2>
+<h3>More feature-rich Example</h3>
 
 <div style="background:#eee; border:1px solid #ccc; padding:5px 10px">
 <pre>
