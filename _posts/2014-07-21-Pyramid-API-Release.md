@@ -18,7 +18,7 @@ image: logo_1.jpg
 	  
 <h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
 
-<p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you need in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs and hopefully you will find them inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
+<p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you require in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs that we hope you will find inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
 
 <p>&nbsp;</p>
 
@@ -55,7 +55,7 @@ Supported Bill Validators
 <p>&nbsp;</p>
 
 <h2>Neat Stuff</h2>
-<p>For our first round of APIs we have targetted the Java platform. Entrepenours and developers work on all platforms and so should our product. Many people have purchased our Apex and Trilogy model bill validators and requested sample code or APIs. We are making good on our promise to deliver.</p>
+<p>For our first round of APIs we have targetted the Java platform. Entrepreneurs and developers work on all platforms so we believe that our tools should be held to the same standard. With the library you will be able to develop desktop, console, and web applications without having to hassle with cross-platform drivers.</p>
 
 <p>&nbsp;</p>
 
