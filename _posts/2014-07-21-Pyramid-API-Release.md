@@ -19,7 +19,9 @@ image: logo_1.jpg
 <h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
 
 <p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you need in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs and hopefully you will find them inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
-<br>
+
+<p>&nbsp;</p>
+
 <div class="list-group">
   <a href="#" class="list-group-item active">
 Supported Bill Validators
@@ -30,26 +32,25 @@ Supported Bill Validators
   <a href="http://pyramidacceptors.com/apex-series/" class="list-group-item">Apex 5000</a>
 </div>
 
+<p>&nbsp;</p>
+
 <div class="list-group">
-  <a class="list-group-item active">
-Supported Operating Systems
-  </a>
+  <a class="list-group-item active">Supported Operating Systems</a>
   <a class="list-group-item">Windows: XP SP3, Vista SP2, 7, 8.1 - <i>32/64 bit support for al</i></a>
   <a class="list-group-item">OSX 10.7 (Intel based) or better</a>
   <a class="list-group-item">Linux - Debian, Ubuntu, Arch, Fedora, Redhat... pretty much all of them(32/64 bit)</a>
 </div>
 
 <p>&nbsp;</p>
-<div class="container" >
-	<ul class="list-group">
-  	<a href="" class="list-group-item active">
-	Supported Bill Validators
-  	</a>
-  	<li><a href="/api" target="_blank" class="list-group-item">The API documentation is available here.<img 	alt="javadoc_icon" src="/img/posts/javadoc_icon.png"></a></li>
-  	<li><a href="/api/release/PTalk.jar" class="list-group-item">The API jar file is available here.<img alt="jar_icon" 	src="/img/posts/jar_icon.png"></a></li>
-	</div>
+<div class="list-group">
+  <a class="list-group-item active">Downloads</a>  
+  <a class="list-group-item media-list" href="/api" target="_blank"> 
+    <p>The API documentation is available here.<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
+  </a>
+  <a class="list-group-item media-list" href="/api/release/PTalk.jar" target="_blank"> 
+    <p>The API jar file is available here.<img class="pull-right" src="/img/posts/jar_icon.png" alt="jar_icon"></p>
+  </a>    
 </div>
-<br>
 
 <p>&nbsp;</p>
 
@@ -60,7 +61,13 @@ Supported Operating Systems
 
 <h3>Basic Example</h3>
 
-<p>The simplest example can be constructed with just two lines of code.&nbsp;</p>
+<p>The simplest example can be constructed with just two lines of code. 
+<ol>
+<li>Instantiate a PyramidAcceptor</li>
+<li>Connect</li>
+<li>Done!</li>
+</ol>
+&nbsp;</p>
 
 <div style="background:#eee; border:1px solid #ccc; padding:5px 10px">
 <pre>
@@ -78,9 +85,11 @@ acceptor.connect();
 <p>&nbsp;</p>
 
 <p>Of course, this is just a basic example. You are free to specify your own port name, port configuration, and even configure event handlers.&nbsp;</p>
+<p>&nbsp;</p>
 
-<h3>More feature-rich Example</h3>
-
+<h3>Feature-rich Example</h3>
+In this example we set a custom baud, databit, stopbit, parity, and port name. We also show the ability to change the polling rate
+and alter the bill enable disable pattern. This allows the master to block certain denominations from accepting.
 <div style="background:#eee; border:1px solid #ccc; padding:5px 10px">
 <pre>
 <code><em><a id="sample" name="sample"></a>...
@@ -105,7 +114,9 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <p>&nbsp;</p>
 
 <h2>Applet Sample</h2>
+<div class="well well-lg">
 <p><a href="/api/demo" target="_blank"><img rel="tooltip" title="Click to try live demo" target="_blank" alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" href="api/demo" /></a></p>
+</div>
 <p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
 
 <p>This example demonstrates the event support and device autodetection available with our API.</p><br>
@@ -120,7 +131,9 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 </div>
 
 <h2>Desktop Sample</h2>
- <p><img alt="pyramid_api_desktop_sample.png" class="right" src="/img/posts/pyramid_api_desktop_sample.png" /></p>
+<div class="well well-lg">
+<p><img alt="pyramid_api_desktop_sample.png" class="right" src="/img/posts/pyramid_api_desktop_sample.png" /></p>
+</div>
 <p>This is a more traditional example based on a JFrame. This simply enables the bill validator and reports and event or state change. This sample is good for debugging your application to ensure that your product idea will be rock-solid.</p>
 
 <div class="panel panel-info">
@@ -130,9 +143,9 @@ The source code for this sample is available <a href="https://github.com/Pyramid
 <div class="alert alert-danger">This requires a bill validator and serial connection between your PC and the bill validator.</div>
   </div>
 </div>
-<h2>Input Welcome</h2>
+<h2>Your Input Welcome</h2>
 
-<p>Here at Pyramid Technologies, we value customer ideas and innovation. 
+<p>Here at Pyramid Technologies we value customer ideas and innovation. 
 <br>If you require a functionality that our API is not providing, feel free to <a href="https://github.com/PyramidTechnologies/Feedback/issues/new">let us know</a>.</p>
 
 <p>&nbsp;</p>
