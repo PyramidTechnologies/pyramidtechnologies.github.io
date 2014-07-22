@@ -45,10 +45,10 @@ Supported Bill Validators
 <div class="list-group">
   <a class="list-group-item active">Downloads</a>  
   <a class="list-group-item media-list" href="/api" target="_blank"> 
-    <p>The API documentation is available here.<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
+    <p>Download documentation<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
   </a>
   <a class="list-group-item media-list" href="/api/release/PTalk.jar" target="_blank"> 
-    <p>The API jar file is available here.<img class="pull-right" src="/img/posts/jar_icon.png" alt="jar_icon"></p>
+    <p>Download library (jar)<img class="pull-right" src="/img/posts/jar_icon.png" alt="jar_icon"></p>
   </a>    
 </div>
 
