@@ -106,16 +106,13 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <p><a href="/api/demo" target="_blank"><img rel="tooltip" title="Click to try live demo" target="_blank" alt="pyramid_api_applet_sample.png" class="right" src="/img/posts/pyramid_api_applet_sample.png" href="api/demo" /></a></p>
 <p>With the example we demonstrate a simple applet that charges money for access to a service. In this case it is a silly count bot that counts words on a web page. With a little time you could adapt this to create a kiosk that serves YouTube videos, music, or any other timed service that you would like to sell</p>
 
-<p>This example demonstrates the event support and device autodetection available with our API. <br>
+<p>This example demonstrates the event support and device autodetection available with our API.</p><br>
 <br>
 <div class="panel panel-info">
   <div class="panel-body">
-A working sample is available <a href="/api/demo" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p></p> This requires a bill validator and serial connection between your PC and the bill validator.<br>
-  </div>
-</div>
-<div class="panel panel-info">
-  <div class="panel-body">
-The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-applet-sample" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p></p>
+<p>A working sample is available <a href="/api/demo" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p>
+<p>The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-applet-sample" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p>
+<div class="alert alert-danger">This requires a bill validator and serial connection between your PC and the bill validator.</div>
   </div>
 </div>
 
