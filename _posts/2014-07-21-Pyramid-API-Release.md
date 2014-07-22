@@ -44,8 +44,8 @@ Supported Operating Systems
   <a href="" class="list-group-item active">
 Supported Bill Validators
   </a>
-  <p><a href="/api" target="_blank" class="list-group-item">The API documentation is available here.<img alt="javadoc_icon" src="/img/posts/javadoc_icon.png" class="pull-right"></a></p>
-  <p><a href="/api/release/PTalk.jar" class="list-group-item">The API jar file is available here.<img alt="jar_icon" src="/img/posts/jar_icon.png" class="pull-right"></a></p>
+  <div class="row"><a href="/api" target="_blank" class="list-group-item">The API documentation is available here.<img alt="javadoc_icon" src="/img/posts/javadoc_icon.png" class="pull-right"></a></div>
+  <div class="row"><a href="/api/release/PTalk.jar" class="list-group-item">The API jar file is available here.<img alt="jar_icon" src="/img/posts/jar_icon.png" class="pull-right"></a></div>
 </div>
 <br>
 
