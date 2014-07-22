@@ -109,7 +109,8 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <p>This example demonstrates the event support and device autodetection available with our API.</p><br>
 <br>
 <div class="panel panel-info">
-  <div class="panel-body">
+<div class="panel-heading">Code</div>
+<div class="panel-body">
 <p>A working sample is available <a href="/api/demo" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p>
 <p>The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-applet-sample" rel="tooltip" title="Java API Sample - Applet" target="_blank">here</a>.</p>
 <div class="alert alert-danger">This requires a bill validator and serial connection between your PC and the bill validator.</div>
@@ -119,9 +120,12 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <h2>Desktop Sample</h2>
  <p><img alt="pyramid_api_desktop_sample.png" class="right" src="/img/posts/pyramid_api_desktop_sample.png" /></p>
 <p>This is a more traditional example based on a JFrame. This simply enables the bill validator and reports and event or state change. This sample is good for debugging your application to ensure that your product idea will be rock-solid.</p>
+
 <div class="panel panel-info">
-  <div class="panel-body">
+<div class="panel-heading">Code</div>
+<div class="panel-body">
 The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-desktop-sample" rel="tooltip" title="Java API Sample - Desktop" target="_blank">here</a>.</p></p>
+<div class="alert alert-danger">This requires a bill validator and serial connection between your PC and the bill validator.</div>
   </div>
 </div>
 <h2>Input Welcome</h2>
