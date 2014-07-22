@@ -36,7 +36,7 @@ Supported Bill Validators
 
 <div class="list-group">
   <a class="list-group-item active">Supported Operating Systems</a>
-  <a class="list-group-item">Windows: XP SP3, Vista SP2, 7, 8.1 - <i>32/64 bit support for al</i></a>
+  <a class="list-group-item">Windows: XP SP3, Vista SP2, 7, 8.1 - <i>32/64 bit support for all</i></a>
   <a class="list-group-item">OSX 10.7 (Intel based) or better</a>
   <a class="list-group-item">Linux - Debian, Ubuntu, Arch, Fedora, Redhat... pretty much all of them(32/64 bit)</a>
 </div>
