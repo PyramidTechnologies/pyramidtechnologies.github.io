@@ -4,12 +4,22 @@
 	</div>
 </div>		
 <div class="row">	
-	<div class="col-md-3 column">
-		<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://pyramidtechnologies.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
-		<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-via="PTIacceptors">Tweet</a> <g:plusone size="medium"></g:plusone></h5>
+	<div class="col-md-10 column">	
+	<ul class="media-list">    
+		  <li class="media">
+			<a class="pull-right">
+			  <img class="media-object"  alt="100x100" src="/img/developer_500.jpg" style="width: 100px; height: 100px;">
+			</a>
+			<div class="media-body">
+				<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://pyramidtechnologies.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
+				<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="PTIacceptors">Tweet</a> <g:plusone size="medium"></g:plusone>
+				</h5>        
+			</div>
+		  </li>
+	 </ul>		
 	</div>		
-	<div class="col-md-6 column">
+	<div class="col-md-10 column">
 		<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="glyphicon glyphicon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="glyphicon glyphicon-chevron-right"></i></a> 	{% endif %} </p>  
 	</div>	
 </div>

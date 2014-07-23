@@ -8,7 +8,7 @@ month: 7
 day: 18
 published: true
 summary: Pyramid Technologies releases Java RS-232 API
-image: logo_1.jpg
+image: developers_banner.png
 ---
 
 <!-- Content -->
@@ -16,7 +16,7 @@ image: logo_1.jpg
 	<div class="col-md-9 columns">
 	<!-- CONTENT HERE -->
 	  
-<h1>Java API Released<img alt="logo_1" class="pull-right" src="/img/logo.png" style="height:59px; width:149px" /></h1>
+<h1>Java API Released</h1>
 
 <p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you require in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs that we hope you will find inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
 
@@ -48,7 +48,7 @@ Supported Bill Validators
     <p>Download documentation<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
   </a>
   <a class="list-group-item media-list" href="/api/release/PTalk.jar" target="_blank"> 
-    <p>Download library (jar)<img class="pull-right" src="/img/posts/jar_icon.png" alt="jar_icon"></p>
+    <p>Download library (jar)<img class="pull-right" src="/img/posts/api_thumb.png" alt="jar_icon" style="width: 32px; height: 32px; margin-right: 7px;"></p>
   </a>    
 </div>
 
