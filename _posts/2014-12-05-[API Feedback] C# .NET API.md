@@ -8,7 +8,7 @@ month: 12
 day: 05
 published: true
 summary: A Peek to See Who in Our Community Would Like a C# .NET API for Pyramid products
-image: rs232-stream-header.png
+image: rs232-stream-rect-header.png
 ---
 
 <!-- Content -->
@@ -17,7 +17,7 @@ image: rs232-stream-header.png
 	<!-- CONTENT HERE -->
 <h1>How can Pyramid Help You?</h1>
 
-<p><img alt="RS-232 Stream" src="/img/posts/rs232-stream.png" style="float:right; height:400px; width:300px" /></p>
+<p><img alt="RS-232 Stream" src="/img/posts/rs232-stream-round.png" style="float:right; height:400px; width:300px" /></p>
 
 <p>Pyramid Technologies is always working hard to make your job easier. Not only do we build a great product, we love to deliver tools that help make your project come to life.&nbsp;Our engineering team has been building custom firmware, mounting brackets, harnesses, and many other unique components that solve problems in a remarkably economic fashion.&nbsp;It is only natural that we extend our services to the software community with a set of intuitive APIs.</p>
 <br>
