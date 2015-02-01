@@ -1,5 +1,5 @@
 markdown: rdiscount
-highlighter: rogue
+highlighter: pygments
 permalink: /a/:title
 baseurl:     /
 source:      .
