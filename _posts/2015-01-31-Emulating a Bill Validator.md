@@ -7,7 +7,7 @@ year: 2015
 month: 01
 day: 31
 published: true
-summary: An introduction to emulating RS-232 bill acceptors in a virutal environment
+summary: An introduction to emulating RS-232 bill acceptors in a virtual environment
 image: developers_banner.png
 ---
 
