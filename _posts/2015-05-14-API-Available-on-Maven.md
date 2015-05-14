@@ -6,9 +6,9 @@ tags: Gradle, Intellij, Java
 year: 2015
 month: 5
 day: 14
-published: false
+published: true
 summary: Get your project built more quickly by using Gradle
-image: developers_banner.png
+image: hires_usaflag.png
 ---
 
 <!-- Content -->
@@ -16,15 +16,15 @@ image: developers_banner.png
 	<div class="col-md-9 columns">
 	<!-- CONTENT HERE -->
 
-	<h1>RS-232 API Now Available on Maven</h1>
+	<h1>jPyramid-RS-232 1.1 Released</h1>
+
+<h2 style="font-style:italic;">API Now Available on Maven</h2>
 
 <p>We have upgraded our API and made it available through Maven Central. We have also updated our desktop sample application and API source code to use Intellij and Gradle to get you up and running even faster.</p>
 
-<p>&nbsp;</p>
-
 <p>To add our API as a dependency to your project, add these lines to your build.gradle:</p>
 
-<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;">dependencies {<br />
+<div style="background:#eee; border:1px solid #ccc; padding:5px 10px">dependencies {<br />
 &nbsp; &nbsp; compile &#39;com.pyramidacceptors:jPyramid-RS-232:1.1&#39;<br />
 }</div>
 

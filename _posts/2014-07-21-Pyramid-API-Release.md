@@ -49,7 +49,7 @@ Supported Bill Validators
     <p>Download documentation<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
   </a>
   <a class="list-group-item media-list" href="http://search.maven.org/" target="_blank"> 
-    <p>Available on Maven<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="maven_link"></p>
+    <p>Available on Maven (com.pyramidacceptors:jPyramid-RS-232)<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="maven_link"></p>
   </a> 
   <a class="list-group-item media-list" href="/api/release/jPyramid-RS-232-1.1.jar" target="_blank"> 
     <p>Or Download library (jar)<img class="pull-right" src="/img/posts/api_thumb.png" alt="jar_icon" style="width: 32px; height: 32px; margin-right: 7px;"></p>
