@@ -16,9 +16,9 @@ image: developers_banner.png
 	<div class="col-md-9 columns">
 	<!-- CONTENT HERE -->
 	  
-<h1>Java API Released</h1>
+<h1>Updated 5/14/2015! Java API Released</h1>
 
-<p>The PTI engineering team is super excited to announce the release of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you require in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs that we hope you will find inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
+<p>The PTI engineering team is super excited to announce the <strike>release</strike> update of their new bill validator API. Our goal is to provide you, the developer, with all of the tools you require in order to make awesome things. We have also put together a few samples to demonstrate the power of these APIs that we hope you will find inspiring. All you need is a copy of <a href="/api/release/PTalk.jar" target="_blank">PTalk.jar</a>, a Pyramid bill validator, and a serial connection to your PC to get started.</p>
 
 <p>&nbsp;</p>
 
@@ -26,6 +26,7 @@ image: developers_banner.png
   <a href="#" class="list-group-item active">
 Supported Bill Validators
   </a>
+  <a href="http://pyramidacceptors.com/spectra_lp/" class="list-group-item">Spectra</a>
   <a href="http://pyramidacceptors.com/apex-7000/" class="list-group-item">Apex 7000</a>
   <a href="http://pyramidacceptors.com/trilogy-series/" class="list-group-item">Trilogy - <i>RS-232 firmware required</i></a>
   <a href="http://pyramidacceptors.com/curve-series/" class="list-group-item">Curve - <i>RS-232 firmware required</i></a>
@@ -47,8 +48,11 @@ Supported Bill Validators
   <a class="list-group-item media-list" href="/api" target="_blank"> 
     <p>Download documentation<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="javadoc_icon"></p>
   </a>
-  <a class="list-group-item media-list" href="/api/release/PTalk.jar" target="_blank"> 
-    <p>Download library (jar)<img class="pull-right" src="/img/posts/api_thumb.png" alt="jar_icon" style="width: 32px; height: 32px; margin-right: 7px;"></p>
+  <a class="list-group-item media-list" href="http://search.maven.org/" target="_blank"> 
+    <p>Available on Maven<img style="margin-right: 10px;" class="pull-right" src="/img/posts/javadoc_icon.png" alt="maven_link"></p>
+  </a> 
+  <a class="list-group-item media-list" href="/api/release/jPyramid-RS-232-1.1.jar" target="_blank"> 
+    <p>Or Download library (jar)<img class="pull-right" src="/img/posts/api_thumb.png" alt="jar_icon" style="width: 32px; height: 32px; margin-right: 7px;"></p>
   </a>    
 </div>
 
