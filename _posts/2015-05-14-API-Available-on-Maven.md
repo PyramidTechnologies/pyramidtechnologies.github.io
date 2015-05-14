@@ -2,7 +2,7 @@
 layout: post
 title: API Available on Maven
 category: Coding
-tags: Gradle, Intellij, Java
+tags: Gradle Intellij Java
 year: 2015
 month: 5
 day: 14
