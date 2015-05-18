@@ -25,7 +25,7 @@ image: hires_usaflag.png
 <p>To add our API as a dependency to your project, add these lines to your build.gradle:</p>
 
 <div style="background:#eee; border:1px solid #ccc; padding:5px 10px">dependencies {<br />
-&nbsp; &nbsp; compile &#39;com.pyramidacceptors:jPyramid-RS-232:1.1&#39;<br />
+&nbsp; &nbsp; compile &#39;com.pyramidacceptors:jPyramid-RS-232:1.+&#39;<br />
 }</div>
 
 <p>&nbsp;</p>
