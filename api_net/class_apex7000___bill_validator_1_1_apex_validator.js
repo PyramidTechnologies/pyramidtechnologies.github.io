@@ -1,0 +1,26 @@
+var class_apex7000___bill_validator_1_1_apex_validator =
+[
+    [ "ApexValidator", "class_apex7000___bill_validator_1_1_apex_validator.html#a0e3003b4ad602a0ab34aa728aa1f9de7", null ],
+    [ "Close", "class_apex7000___bill_validator_1_1_apex_validator.html#ae3985a0217ac9eb3aaabb56294f51b45", null ],
+    [ "Connect", "class_apex7000___bill_validator_1_1_apex_validator.html#a2a361f835b0e31f584046ec4eb1e85e6", null ],
+    [ "Dispose", "class_apex7000___bill_validator_1_1_apex_validator.html#a2c1a26258776593c7b6a4833aba4ee9d", null ],
+    [ "Reject", "class_apex7000___bill_validator_1_1_apex_validator.html#a0e4303fe622d2639155ba5e37eef7aa4", null ],
+    [ "RequestReset", "class_apex7000___bill_validator_1_1_apex_validator.html#abf1ccb34c3402102da76f9410e0215db", null ],
+    [ "Stack", "class_apex7000___bill_validator_1_1_apex_validator.html#a6ac1d4d71234dd382c2df588521a72f5", null ],
+    [ "Ack", "class_apex7000___bill_validator_1_1_apex_validator.html#a41d5404345800ab320e9cd77c002c806", null ],
+    [ "CashboxPresent", "class_apex7000___bill_validator_1_1_apex_validator.html#a7c41fb5e8cfef6a8eaa8c6c71c48d6e4", null ],
+    [ "Credit", "class_apex7000___bill_validator_1_1_apex_validator.html#a37803d753a5d99b6e356d65a5d1eb600", null ],
+    [ "EscrowCommand", "class_apex7000___bill_validator_1_1_apex_validator.html#a2de2d102f0cfb27d5f7f0b6b21d3d445", null ],
+    [ "IsRunning", "class_apex7000___bill_validator_1_1_apex_validator.html#aca555eba93a2c358b7d81368b32a3d8b", null ],
+    [ "NoteIsEscrowed", "class_apex7000___bill_validator_1_1_apex_validator.html#a2399aa3dca46536337812b630e41431b", null ],
+    [ "PreviousEvents", "class_apex7000___bill_validator_1_1_apex_validator.html#a81784448a351130d74964d5c86388c86", null ],
+    [ "previouslySentMasterMsg", "class_apex7000___bill_validator_1_1_apex_validator.html#a35b7db7a437c2c14d75086e6278a6806", null ],
+    [ "PreviousState", "class_apex7000___bill_validator_1_1_apex_validator.html#a1e80bfa86918dda40e30cd4d321be435", null ],
+    [ "OnCashboxAttached", "class_apex7000___bill_validator_1_1_apex_validator.html#ae0f9dcdc5f6afd79e20b19828934c267", null ],
+    [ "OnCredit", "class_apex7000___bill_validator_1_1_apex_validator.html#aa9cf19a5c8b965680310f814824305cf", null ],
+    [ "OnError", "class_apex7000___bill_validator_1_1_apex_validator.html#a90b1a6032cffe4a13db99f27387b89e8", null ],
+    [ "OnEscrow", "class_apex7000___bill_validator_1_1_apex_validator.html#a4b9bf4d71f10be090815c965f19dc69a", null ],
+    [ "OnEvent", "class_apex7000___bill_validator_1_1_apex_validator.html#a76aee3b3e402d693beceef52e488c5b5", null ],
+    [ "OnSerialData", "class_apex7000___bill_validator_1_1_apex_validator.html#afb4c673e24acdc6290aabfbb1fdc016d", null ],
+    [ "OnStateChanged", "class_apex7000___bill_validator_1_1_apex_validator.html#aa6f1958daa24935284423792b9c426cd", null ]
+];
