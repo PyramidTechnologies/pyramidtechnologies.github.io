@@ -83,13 +83,18 @@ image: ssh.png
 	<p><li>You are now ready to clone/pull/push some code!</li></p>
     <p><em>From here, depending on what order you loaded your keys either your home or work will be treated as default. For me, my home registers as default because either key name or thumbprint is alphabetically first. No matter though; we can fix this!&nbsp;</em></p>
     </li></p>
-	<p><li>Repos belonging to the non-default account will need to have their git origins modified by replacing the hostname portion of the url with the alias&nbsp;id from your .ssh\config file. In my case that would be git@work:myname/repo.git. Note that you may provide the user option in the config file but omitted it because I don&#39;t really need it.</li></p>
+	<p><li>Repos belonging to the non-default account will need to have their git origins modified by replacing the hostname portion of the url with the alias&nbsp;id from your .ssh\config file.</p>
+    <div class="funfact"><p>In my case I would replace my origin <i>git@github.com:myname/repo.git</i> with <i>git@work:myname/repo.git</i>.</p></div></li></p>
 	<p><li>Once you have updated your git origin for the secondary account to use the config file&#39;s alias from <a href="#step4">step 4</a>, you should be able to push/pul without issue.</li></p>
 	<ul>
 		<li>If you do have an issue, use Sourcetree menu Tools -&gt; Add SSH Key... dialog to try re-adding the key.</li>
 		<li>If that doesn&#39;t work, close Sourcetree, any open console, and try again!</li>
 		<li>If that doesn&#39;t work then you probably missed a step or detail. Try again!</li>
 	</ul>
+    <br />
+    <li>
+    <p>One final tip before you go. Be sure to clear out any saved username/passwords from the Sourcetree authentication tab that are related to your work/home accounts. If you don't remove these, Sourcetree will keep alerting you to that fact the HTTPS login cannot be performed via OpenSSH. Not a big deal but the modal dialogue gets lost and is super annoying to find.</p>
+    </li>
 	</li>
 </ol>
 
