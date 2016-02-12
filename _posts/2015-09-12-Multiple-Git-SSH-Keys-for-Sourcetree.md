@@ -2,7 +2,7 @@
 layout: post
 title: Multiple SSH Keys for Sourcetree
 category: Coding
-tags: SSH, Git
+tags: SSH Git
 year: 2015
 month: 09
 day: 12
