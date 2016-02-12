@@ -4,6 +4,6 @@ permalink: /a/:title
 baseurl:     /
 source:      .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir:     ./_plugins
 future:      true
 permalink:   date
