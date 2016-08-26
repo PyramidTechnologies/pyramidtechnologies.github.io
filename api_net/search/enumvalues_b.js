@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['slave',['Slave',['../namespace_apex7000___bill_validator.html#aa8be515a339a3187b6be95de182dd6faafe25c0ad752c03ce2361025c235b63e1',1,'Apex7000_BillValidator']]],
-  ['stack',['Stack',['../namespace_apex7000___bill_validator.html#ac3f97582de9f23945c81e70dc6a2e92ea2187e1021a911b3807cc1bea2eb1a9ca',1,'Apex7000_BillValidator']]],
-  ['stacked',['Stacked',['../namespace_apex7000___bill_validator.html#ae1f75780a1fc91508f59eb21caec7dbca29b733fdb4bddeda910b3b4a659c2fef',1,'Apex7000_BillValidator']]],
-  ['stackerfull',['StackerFull',['../namespace_apex7000___bill_validator.html#a54e769340ad9f0d9d62901309f5b1a8da2994c1d4a7fcdcc38a10c31ce9a900df',1,'Apex7000_BillValidator']]],
-  ['stacking',['Stacking',['../namespace_apex7000___bill_validator.html#a54e769340ad9f0d9d62901309f5b1a8da59f2f651f4f54ad9560d3abb9ba610ba',1,'Apex7000_BillValidator']]]
+  ['slave',['Slave',['../namespace_pyramid_n_e_t_r_s232.html#a9c28aa9690d609d7a347d4a3b05999a6afe25c0ad752c03ce2361025c235b63e1',1,'PyramidNETRS232']]],
+  ['stacked',['Stacked',['../namespace_pyramid_n_e_t_r_s232.html#a8394a607b9d215f89741ef9eefaa6665a29b733fdb4bddeda910b3b4a659c2fef',1,'PyramidNETRS232']]],
+  ['stackerfull',['StackerFull',['../namespace_pyramid_n_e_t_r_s232.html#af21fe3cdfbe121f85dc1e256d4d36b3fa2994c1d4a7fcdcc38a10c31ce9a900df',1,'PyramidNETRS232']]],
+  ['stacking',['Stacking',['../namespace_pyramid_n_e_t_r_s232.html#af21fe3cdfbe121f85dc1e256d4d36b3fa59f2f651f4f54ad9560d3abb9ba610ba',1,'PyramidNETRS232']]]
 ];

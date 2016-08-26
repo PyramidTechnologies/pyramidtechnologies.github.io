@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['icommport',['ICommPort',['../interface_p_t_i_1_1_serial_1_1_i_comm_port.html',1,'PTI::Serial']]]
+  ['pyramidacceptor',['PyramidAcceptor',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html',1,'PyramidNETRS232']]]
 ];

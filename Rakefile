@@ -19,7 +19,8 @@ end
 
 desc "Startup Jekyll"
 task :start do
-  sh "jekyll --server"
+  rm_rf site_dir
+  sh 'jekyll serve --watch'
 end
 
 task :default => :start

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['data',['Data',['../class_apex7000___bill_validator_1_1_debug_buffer_entry.html#ada55bf6438cd7e50df5777352f2befe3',1,'Apex7000_BillValidator::DebugBufferEntry']]],
-  ['decodeddata',['DecodedData',['../class_apex7000___bill_validator_1_1_debug_buffer_entry.html#a1fd5029e2f46b24216a9b287fae53bf3',1,'Apex7000_BillValidator::DebugBufferEntry']]]
+  ['data',['Data',['../class_pyramid_n_e_t_r_s232_1_1_debug_buffer_entry.html#a84513268f0d98f901de1af8685b0101f',1,'PyramidNETRS232::DebugBufferEntry']]],
+  ['decodeddata',['DecodedData',['../class_pyramid_n_e_t_r_s232_1_1_debug_buffer_entry.html#a3ed8bd4c6232c1d22357d5bd541069cc',1,'PyramidNETRS232::DebugBufferEntry']]]
 ];

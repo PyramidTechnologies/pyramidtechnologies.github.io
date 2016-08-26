@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['accepting',['Accepting',['../namespace_apex7000___bill_validator.html#a54e769340ad9f0d9d62901309f5b1a8da33d5b55460db6b1b9ddcce27e1cc40c3',1,'Apex7000_BillValidator']]],
-  ['acceptorfailure',['AcceptorFailure',['../namespace_apex7000___bill_validator.html#a54e769340ad9f0d9d62901309f5b1a8da53e25f22e6a4093fdc250c0251eab6c6',1,'Apex7000_BillValidator']]]
+  ['accepting',['Accepting',['../namespace_pyramid_n_e_t_r_s232.html#af21fe3cdfbe121f85dc1e256d4d36b3fa33d5b55460db6b1b9ddcce27e1cc40c3',1,'PyramidNETRS232']]],
+  ['acceptorfailure',['AcceptorFailure',['../namespace_pyramid_n_e_t_r_s232.html#af21fe3cdfbe121f85dc1e256d4d36b3fa53e25f22e6a4093fdc250c0251eab6c6',1,'PyramidNETRS232']]]
 ];

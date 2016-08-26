@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['stack',['Stack',['../class_apex7000___bill_validator_1_1_apex_validator.html#a6ac1d4d71234dd382c2df588521a72f5',1,'Apex7000_BillValidator::ApexValidator']]],
-  ['statechangedargs',['StateChangedArgs',['../class_apex7000___bill_validator_1_1_state_changed_args.html#a619e233ba8a754d207847b7ad5d6a54d',1,'Apex7000_BillValidator::StateChangedArgs']]]
+  ['stack',['Stack',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a647ca69d403b75eb8fc30bc8d74a9dbb',1,'PyramidNETRS232::PyramidAcceptor']]],
+  ['statechangedargs',['StateChangedArgs',['../class_pyramid_n_e_t_r_s232_1_1_state_changed_args.html#ae431dc4b2f1e869f2b14efc04142b673',1,'PyramidNETRS232::StateChangedArgs']]]
 ];

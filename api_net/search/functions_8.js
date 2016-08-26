@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tostring',['ToString',['../class_apex7000___bill_validator_1_1_debug_buffer_entry.html#ac185f7ffde4ebec3b89cf847e391477f',1,'Apex7000_BillValidator::DebugBufferEntry']]]
+  ['tostring',['ToString',['../class_pyramid_n_e_t_r_s232_1_1_debug_buffer_entry.html#a9c752ffc2a726020abcc4decaa6d538e',1,'PyramidNETRS232::DebugBufferEntry']]]
 ];

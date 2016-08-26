@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['cashboxmissing',['CashboxMissing',['../namespace_apex7000___bill_validator.html#ae2e346222c94e598b19864435d07b18ea188ad52e7fa53fb54e99e2ec30a9dd27',1,'Apex7000_BillValidator']]],
-  ['cheated',['Cheated',['../namespace_apex7000___bill_validator.html#ae1f75780a1fc91508f59eb21caec7dbcac573f3f0d1f14d3783cc383aac737e16',1,'Apex7000_BillValidator']]],
-  ['checksumerror',['ChecksumError',['../namespace_apex7000___bill_validator.html#ae2e346222c94e598b19864435d07b18eab1d31422c75450f29b042272b8ce584f',1,'Apex7000_BillValidator']]],
-  ['close',['Close',['../class_apex7000___bill_validator_1_1_apex_validator.html#ae3985a0217ac9eb3aaabb56294f51b45',1,'Apex7000_BillValidator::ApexValidator']]],
-  ['commportname',['CommPortName',['../class_apex7000___bill_validator_1_1_r_s232_config.html#ade91589fc9f5da76f38cf47259889074',1,'Apex7000_BillValidator::RS232Config']]],
-  ['connect',['Connect',['../class_apex7000___bill_validator_1_1_apex_validator.html#a2a361f835b0e31f584046ec4eb1e85e6',1,'Apex7000_BillValidator.ApexValidator.Connect()'],['../interface_p_t_i_1_1_serial_1_1_i_comm_port.html#ab23f489329fd04575a32992993d9581e',1,'PTI.Serial.ICommPort.Connect()']]],
-  ['creditargs',['CreditArgs',['../class_apex7000___bill_validator_1_1_credit_args.html#a5be3b37439ed858f329651341d1d1163',1,'Apex7000_BillValidator::CreditArgs']]],
-  ['creditargs',['CreditArgs',['../class_apex7000___bill_validator_1_1_credit_args.html',1,'Apex7000_BillValidator']]]
+  ['cashboxmissing',['CashboxMissing',['../namespace_pyramid_n_e_t_r_s232.html#a738610a7b4e07af40f2fab1c9bb89d52a188ad52e7fa53fb54e99e2ec30a9dd27',1,'PyramidNETRS232']]],
+  ['cheated',['Cheated',['../namespace_pyramid_n_e_t_r_s232.html#a8394a607b9d215f89741ef9eefaa6665ac573f3f0d1f14d3783cc383aac737e16',1,'PyramidNETRS232']]],
+  ['checksumerror',['ChecksumError',['../namespace_pyramid_n_e_t_r_s232.html#a738610a7b4e07af40f2fab1c9bb89d52ab1d31422c75450f29b042272b8ce584f',1,'PyramidNETRS232']]],
+  ['close',['Close',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544',1,'PyramidNETRS232::PyramidAcceptor']]],
+  ['commportname',['CommPortName',['../class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#a107d283bb6f6ae7709e1be2e96637e54',1,'PyramidNETRS232::RS232Config']]],
+  ['config',['Config',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a02572b3814c96e899981fac801f79e81',1,'PyramidNETRS232::PyramidAcceptor']]],
+  ['connect',['Connect',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a74e64c92c3e28995485b7246d63ab3c8',1,'PyramidNETRS232.PyramidAcceptor.Connect()'],['../interface_p_t_i_1_1_serial_1_1_i_comm_port.html#ab23f489329fd04575a32992993d9581e',1,'PTI.Serial.ICommPort.Connect()']]],
+  ['creditargs',['CreditArgs',['../class_pyramid_n_e_t_r_s232_1_1_credit_args.html#a3959d61fcd4ae0a55a6e82027f34998f',1,'PyramidNETRS232::CreditArgs']]],
+  ['creditargs',['CreditArgs',['../class_pyramid_n_e_t_r_s232_1_1_credit_args.html',1,'PyramidNETRS232']]]
 ];

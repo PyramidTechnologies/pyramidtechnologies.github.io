@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['bytearraytostring',['ByteArrayToString',['../class_apex7000___bill_validator_1_1_debug_buffer_entry.html#ac49c9ec3f31511cca06b997dd175cd46',1,'Apex7000_BillValidator::DebugBufferEntry']]]
+  ['close',['Close',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544',1,'PyramidNETRS232::PyramidAcceptor']]],
+  ['connect',['Connect',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a74e64c92c3e28995485b7246d63ab3c8',1,'PyramidNETRS232.PyramidAcceptor.Connect()'],['../interface_p_t_i_1_1_serial_1_1_i_comm_port.html#ab23f489329fd04575a32992993d9581e',1,'PTI.Serial.ICommPort.Connect()']]],
+  ['creditargs',['CreditArgs',['../class_pyramid_n_e_t_r_s232_1_1_credit_args.html#a3959d61fcd4ae0a55a6e82027f34998f',1,'PyramidNETRS232::CreditArgs']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getavailableports',['GetAvailablePorts',['../class_apex7000___bill_validator_1_1_apex_validator.html#a71d876ee0f6ca1c8317a119ec65bc5ea',1,'Apex7000_BillValidator::ApexValidator']]]
+  ['getavailableports',['GetAvailablePorts',['../class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#adae8417593f99c1343cbf9b9daa9c6a8',1,'PyramidNETRS232::PyramidAcceptor']]]
 ];
