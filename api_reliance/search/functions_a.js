@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['uniquedevice',['UniqueDevice',['../classhidapi_1_1_unique_device.html#afe12ff70c12d7d8fa38dd3f174163a21',1,'hidapi::UniqueDevice::UniqueDevice()'],['../classhidapi_1_1_unique_device.html#af956e296cf8deecd472f205b11466bbe',1,'hidapi::UniqueDevice::UniqueDevice(unsigned short vid, unsigned short pid, const wchar_t *serial_number=nullptr)'],['../classhidapi_1_1_unique_device.html#a3c7f3a2e91b14a4e34ff6dd4d3d4a517',1,'hidapi::UniqueDevice::UniqueDevice(const char *path)'],['../classhidapi_1_1_unique_device.html#a9d8cadfc68a0ff4530fceccb3e70dd0e',1,'hidapi::UniqueDevice::UniqueDevice(std::string const &amp;path)'],['../classhidapi_1_1_unique_device.html#a617baa0ba13a56aaefe055da140ae8a4',1,'hidapi::UniqueDevice::UniqueDevice(UniqueDevice &amp;&amp;other)'],['../classhidapi_1_1_unique_device.html#a4d72a6a5ae878fe09e4d5fa4ca037ebd',1,'hidapi::UniqueDevice::UniqueDevice(UniqueDevice const &amp;)=delete']]]
-];

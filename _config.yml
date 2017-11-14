@@ -4,6 +4,9 @@ permalink: /a/:title
 baseurl:     /
 source:      .
 destination: ./_site
-plugins_dir:     ./_plugins
+plugins_dir: ./_plugins
 future:      true
 permalink:   date
+include:    
+    - api_reliance/_reliance_h_i_d_8hpp.html
+    - api_reliance/_reliance_h_i_d_8hpp_source.html    
