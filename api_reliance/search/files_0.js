@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['changelog_2emd',['changelog.md',['../changelog_8md.html',1,'']]]
+  ['reliancehid_2ehpp',['RelianceHID.hpp',['../_reliance_h_i_d_8hpp.html',1,'']]]
 ];
