@@ -64,7 +64,7 @@ image: ssh.png
     &nbsp;&nbsp;# the OpenSSH private key name for your home account. <br />
 	&nbsp;&nbsp;IdentityFile ~/.ssh/home.rsa<br />
 	&nbsp;&nbsp;IdentitiesOnly yes</div>
-    <p> See the <a href="http://linux.die.net/man/5/ssh_config"> SSH Docs</a> for more information about these options</p>
+    <p> See the <a href="https://linux.die.net/man/5/ssh_config"> SSH Docs</a> for more information about these options</p>
 	</li></p>
 	<p><li>Close Sourcetree</li></p>
 	<p><li>Close <strong>all&nbsp;</strong>open terminals/shells/cmd prompts</li></p>
@@ -122,18 +122,18 @@ image: ssh.png
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'ptidevelopers'; // required: replace example with your forum shortname
 			var disqus_identifier = '{{ page.url }}';
-			var disqus_url = 'http://pyramidtechnologies.github.com{{ page.url }}';
+			var disqus_url = 'https://pyramidtechnologies.github.com{{ page.url }}';
  
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 		</script>
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
 

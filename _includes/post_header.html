@@ -11,7 +11,7 @@
 			  <img class="media-object"  alt="100x100" src="/img/developer_500.jpg" style="width: 100px; height: 100px;">
 			</a>
 			<div class="media-body">
-				<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="http://pyramidtechnologies.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
+				<h5><strong>{{ page.date | date: "%B %e, %Y" }} <small>. {{ page.category }} . <a href="https://pyramidtechnologies.github.com{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a></small></strong>
 				<br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small><br/><br/>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-via="PTIacceptors">Tweet</a> <g:plusone size="medium"></g:plusone>
 				</h5>        

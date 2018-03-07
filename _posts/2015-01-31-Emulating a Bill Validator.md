@@ -20,17 +20,17 @@ image: developers_banner.png
 
 <p>We recently had an excellent question presented to us on another topic so we thought we&#39;d dig in and deliver an answer that should help out a lot of other developers.&nbsp;</p>
 
-<p>The original questions was posted <a href="http://developers.pyramidacceptors.com/coding/2014/07/21/Pyramid-API-Release.html#comment-1822777669" target="_blank">here</a>. Like everything else, there is literally a 100 ways we could solve this problem, each with their own benefits and drawbacks.</p>
+<p>The original questions was posted <a href="https://developers.pyramidacceptors.com/coding/2014/07/21/Pyramid-API-Release.html#comment-1822777669" target="_blank">here</a>. Like everything else, there is literally a 100 ways we could solve this problem, each with their own benefits and drawbacks.</p>
 
 <ol>
 	<li><strong><em>Unit Testing</em></strong>&nbsp;- These should always be written anyways but it can be difficult to mock out the serial port in some languages.</li>
-	<li><strong><em>Building Hardware</em></strong>&nbsp;- Don&#39;t bother...<a href="http://shop.pyramidacceptors.com/refurbished-acceptors/" target="_blank"> just buy a refurbished bill acceptor</a> and outsource the really hard stuff.</li>
+	<li><strong><em>Building Hardware</em></strong>&nbsp;- Don&#39;t bother...<a href="https://shop.pyramidacceptors.com/refurbished-acceptors/" target="_blank"> just buy a refurbished bill acceptor</a> and outsource the really hard stuff.</li>
 	<li><em><strong>Rolling your Own</strong></em>&nbsp;- Relatively quick and easy if you understand the protocol and know a least one programming language with good serial port support.</li>
 </ol>
 
 <p>Because I love software, have an overabundance of bill acceptors, and don&#39;t really want to write unit tests today, we are going to roll our own. Maybe I&#39;ll write up some unit tests next week :)</p>
 
-<p>Before we get too far along, please make sure that you are familiar with the <a href="http://developers.pyramidacceptors.com/coding/2014/08/26/RS-232-Diagram.html" target="_blank">RS-232 bill validator protocol</a>.</p>
+<p>Before we get too far along, please make sure that you are familiar with the <a href="https://developers.pyramidacceptors.com/coding/2014/08/26/RS-232-Diagram.html" target="_blank">RS-232 bill validator protocol</a>.</p>
 
 <p>Since we&#39;re running in software, presumably both slave and master on the same computer, we will need a solution to bridge our serial ports.</p>
 
@@ -40,7 +40,7 @@ image: developers_banner.png
 
 <p>&nbsp;</p>
 
-<div style="background:#eee; border:1px solid #ccc; padding:5px 10px"><strong>Linux -&nbsp;</strong><a href="http://stackoverflow.com/questions/23867143/null-modem-emulator-com0com-for-linux" target="_blank">socat</a>&nbsp;appears to be the answer though I have not yet tried it. Post back if you find a better solution!</div>
+<div style="background:#eee; border:1px solid #ccc; padding:5px 10px"><strong>Linux -&nbsp;</strong><a href="https://stackoverflow.com/questions/23867143/null-modem-emulator-com0com-for-linux" target="_blank">socat</a>&nbsp;appears to be the answer though I have not yet tried it. Post back if you find a better solution!</div>
 
 <p>&nbsp;</p>
 
@@ -67,7 +67,7 @@ image: developers_banner.png
 
 <p>&nbsp;</p>
 
-<p>I am particularly fond of tables so enjoy these beauties :) This data was mostly scraped from our <a href="http://www.pyramidacceptors.com/files/RS_232.pdf" target="_blank">RS-232 manual</a> if you prefere to get to the horse of the source.</p>
+<p>I am particularly fond of tables so enjoy these beauties :) This data was mostly scraped from our <a href="https://www.pyramidacceptors.com/files/RS_232.pdf" target="_blank">RS-232 manual</a> if you prefere to get to the horse of the source.</p>
 
 <table class="table table-striped  table-bordered">
 	<caption>
@@ -386,18 +386,18 @@ The Pyramid Software Team
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'ptidevelopers'; // required: replace example with your forum shortname
 			var disqus_identifier = '{{ page.url }}';
-			var disqus_url = 'http://pyramidtechnologies.github.com{{ page.url }}';
+			var disqus_url = 'https://pyramidtechnologies.github.com{{ page.url }}';
  
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
 				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 		</script>
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		<a href="https://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 	</div>
 </div>
 
