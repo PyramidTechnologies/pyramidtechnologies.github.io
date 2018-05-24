@@ -6,7 +6,7 @@ tags: TAGS
 year: 2018
 month: 5
 day: 24
-published: false
+published: true
 summary: Flash update and configuration API
 image: reliance.png
 ---
