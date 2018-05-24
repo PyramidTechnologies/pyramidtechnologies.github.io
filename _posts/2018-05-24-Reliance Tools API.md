@@ -16,13 +16,13 @@ image: reliance.png
 	<div class="col-md-9 columns">
 	<!-- CONTENT HERE -->
 
-# Reliance Tools for Your App
-The team is proud to announce the release of our cross-platform Reliance Tools API. This library was designed from the ground up to run on .NET Core to give you the most
+<p>Reliance Tools for Your App</p>
+<p>The team is proud to announce the release of our cross-platform Reliance Tools API. This library was designed from the ground up to run on .NET Core to give you the most
 comprehensive tools for managing your thermal printer. With this API you will be able to flash update, apply configurations, and remotely diagnose your printer directly
-from your software. No longer will you have to call out to other programs to manage your printers. Best of all, the source is freely availble for your use and customization.
+from your software. No longer will you have to call out to other programs to manage your printers. Best of all, the source is freely availble for your use and customization.</p>
 
-We also believe in consuming what we produce so you can be confident that this API is heavily used internally by the Pyramid team. This means regular updates and feature adds
-can be counted on for this library. Check out out [tutorials page](developers.pyramidacceptors.com/PTI.Reliance.Tools/tutorials/) for more information on how to get started.
+<p>We also believe in consuming what we produce so you can be confident that this API is heavily used internally by the Pyramid team. This means regular updates and feature adds
+can be counted on for this library. Check out out <a data-cke-saved-href="https://developers.pyramidacceptors.com/PTI.Reliance.Tools/tutorials/" href="https://github.com/PyramidTechnologies">tutorials page</a> for more information on how to get started.</p>
 	  
 	<!-- END CONTENT-->  
 	</div>
