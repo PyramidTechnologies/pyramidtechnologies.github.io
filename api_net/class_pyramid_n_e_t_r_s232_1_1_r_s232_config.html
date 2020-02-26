@@ -128,6 +128,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ae0706671761a22924c3bb4080ae38e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#a1ae0706671761a22924c3bb4080ae38e">RS232Config</a> (string commPort, bool isEscrowMode)</td></tr>
 <tr class="memdesc:a1ae0706671761a22924c3bb4080ae38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new configuration to use for the Apex7000 validator class.  <a href="#a1ae0706671761a22924c3bb4080ae38e">More...</a><br /></td></tr>
 <tr class="separator:a1ae0706671761a22924c3bb4080ae38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2f5e818efe5b11a143c7f93867cc533"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="interface_p_t_i_1_1_serial_1_1_i_comm_port.html">ICommPort</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#ae2f5e818efe5b11a143c7f93867cc533">GetCommPort</a> ()</td></tr>
+<tr class="memdesc:ae2f5e818efe5b11a143c7f93867cc533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new comm port using this configuration. By default, this library uses the internal StrongPort type. If you want to use a different implementation, create a class that extends ICommPort and override this class to return your type.  <a href="#ae2f5e818efe5b11a143c7f93867cc533">More...</a><br /></td></tr>
+<tr class="separator:ae2f5e818efe5b11a143c7f93867cc533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -150,7 +153,7 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Define the operating parameters of your bill acceptor </p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00008">8</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00009">9</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a80d929760dbcccc417beaed90cec2d6a"></a>
 <div class="memitem">
@@ -213,7 +216,36 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00034">34</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00035">35</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ae2f5e818efe5b11a143c7f93867cc533"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="interface_p_t_i_1_1_serial_1_1_i_comm_port.html">ICommPort</a> PyramidNETRS232.RS232Config.GetCommPort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a new comm port using this configuration. By default, this library uses the internal StrongPort type. If you want to use a different implementation, create a class that extends ICommPort and override this class to return your type. </p>
+<dl class="section return"><dt>Returns</dt><dd>ICommPort</dd></dl>
+
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00107">107</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>
@@ -238,7 +270,7 @@ Properties</h2></td></tr>
 
 <p>String name of the comm port (What the OS calls it) </p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00072">72</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00070">70</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>
@@ -263,7 +295,7 @@ Properties</h2></td></tr>
 <p>Bitwise enable disbale pattern. Each bit set to 1 corresponds to an enabled bill. e.g. 0x7E (0b01111110) is all bill except the $1 are enabled. This value is limited to 7-bits (0x7F) and any extra bits will be unset. 0xFF -&gt; 0x7F </p>
 <p>Default mask is 0x7F (all enabled)</p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00096">96</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00094">94</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>
@@ -288,7 +320,7 @@ Properties</h2></td></tr>
 <p>Gets or sets the timeout for escrow mode. By default, we wait indefinately but you may configure this to a non-zero value to enable escrow timeouts. This has the effect of sending a reject message to the acceptor once timeout occurs. </p>
 <p>Default value is 0 (disabled)</p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00087">87</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00085">85</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>
@@ -313,7 +345,7 @@ Properties</h2></td></tr>
 <p>Escrow mode allows you to manually call Stack() or Reject() on each escrowed note. If false, we stack any valid note automatically. </p>
 <p>Default value is false</p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00079">79</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00077">77</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>
@@ -339,7 +371,7 @@ Properties</h2></td></tr>
 <p>Default value is 100 ms</p>
 <p>Min: 50 Max: 5000</p>
 
-<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00052">52</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
+<p>Definition at line <a class="el" href="_r_s232_config_8cs_source.html#l00053">53</a> of file <a class="el" href="_r_s232_config_8cs_source.html">RS232Config.cs</a>.</p>
 
 </div>
 </div>

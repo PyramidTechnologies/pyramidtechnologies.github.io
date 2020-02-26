@@ -135,25 +135,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53991b20098704536730f505db67787c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a53991b20098704536730f505db67787c">PyramidAcceptor</a> (<a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html">RS232Config</a> config)</td></tr>
 <tr class="memdesc:a53991b20098704536730f505db67787c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html" title="The main class that does the actual &quot;talking&quot; the acceptor. In the context of documentation, this object what is referred to as the master and the acceptor is the slave device. ">PyramidAcceptor</a> using the specified configuration  <a href="#a53991b20098704536730f505db67787c">More...</a><br /></td></tr>
 <tr class="separator:a53991b20098704536730f505db67787c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeebbe596aec1734aeca236c69e5b50ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#aeebbe596aec1734aeca236c69e5b50ba">Dispose</a> ()</td></tr>
+<tr class="memdesc:aeebbe596aec1734aeca236c69e5b50ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases comm port and related managed resources.  <a href="#aeebbe596aec1734aeca236c69e5b50ba">More...</a><br /></td></tr>
+<tr class="separator:aeebbe596aec1734aeca236c69e5b50ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af83ab197f855f69835534bf0e7c5e544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544">Close</a> ()</td></tr>
-<tr class="memdesc:af83ab197f855f69835534bf0e7c5e544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop talking to the slave and release the underlying commm port.  <a href="#af83ab197f855f69835534bf0e7c5e544">More...</a><br /></td></tr>
+<tr class="memdesc:af83ab197f855f69835534bf0e7c5e544"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop talking to the slave and release the underlying comm port.  <a href="#af83ab197f855f69835534bf0e7c5e544">More...</a><br /></td></tr>
 <tr class="separator:af83ab197f855f69835534bf0e7c5e544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6274198f233bc737d98d73c5c60a50f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f">PauseAcceptance</a> ()</td></tr>
-<tr class="memdesc:ae6274198f233bc737d98d73c5c60a50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the bill acceptor within the time period defined by the poll rate. The poll rate (<a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#adceb74a3f0028a0b19679dad41dd7b03" title="Gets or sets the poll rate in milliseconds. The polled system is designed for the master to request i...">RS232Config.PollRate</a>, default 50 ms) is the maximum time between poll packets from master to slave. This command does not disconnect the serial port. Use <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544" title="Stop talking to the slave and release the underlying commm port. ">Close()</a> for that effect.  <a href="#ae6274198f233bc737d98d73c5c60a50f">More...</a><br /></td></tr>
+<tr class="memdesc:ae6274198f233bc737d98d73c5c60a50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disables the bill acceptor within the time period defined by the poll rate. The poll rate (<a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#adceb74a3f0028a0b19679dad41dd7b03" title="Gets or sets the poll rate in milliseconds. The polled system is designed for the master to request i...">RS232Config.PollRate</a>, default 50 ms) is the maximum time between poll packets from master to slave. This command does not disconnect the serial port. Use <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544" title="Stop talking to the slave and release the underlying comm port. ">Close()</a> for that effect. This effectively tells the acceptor to stop accepting bill but keep reporting status. The acceptor's lights will turn off after this call takes effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a8b8bb64d968aeb4ca8660c8dc0805ca6" title="Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already ru...">ResumeAcceptance</a></dd></dl>
+ <a href="#ae6274198f233bc737d98d73c5c60a50f">More...</a><br /></td></tr>
 <tr class="separator:ae6274198f233bc737d98d73c5c60a50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b55d3a35f7b334b8701bcb20f2c7873"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a4b55d3a35f7b334b8701bcb20f2c7873">ResmeAcceptance</a> ()</td></tr>
 <tr class="memdesc:a4b55d3a35f7b334b8701bcb20f2c7873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already running and accepting. The acceptor's lights will turn on after this command takes effect. The command will take up to Config.PollRate ms to take effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f" title="Disables the bill acceptor within the time period defined by the poll rate. The poll rate (RS232Confi...">PauseAcceptance</a></dd></dl>
  <a href="#a4b55d3a35f7b334b8701bcb20f2c7873">More...</a><br /></td></tr>
 <tr class="separator:a4b55d3a35f7b334b8701bcb20f2c7873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8bb64d968aeb4ca8660c8dc0805ca6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a8b8bb64d968aeb4ca8660c8dc0805ca6">ResumeAcceptance</a> ()</td></tr>
+<tr class="memdesc:a8b8bb64d968aeb4ca8660c8dc0805ca6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already running and accepting. The acceptor's lights will turn on after this command takes effect. The command will take up to Config.PollRate ms to take effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f" title="Disables the bill acceptor within the time period defined by the poll rate. The poll rate (RS232Confi...">PauseAcceptance</a></dd></dl>
+ <a href="#a8b8bb64d968aeb4ca8660c8dc0805ca6">More...</a><br /></td></tr>
+<tr class="separator:a8b8bb64d968aeb4ca8660c8dc0805ca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e64c92c3e28995485b7246d63ab3c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a74e64c92c3e28995485b7246d63ab3c8">Connect</a> ()</td></tr>
 <tr class="memdesc:a74e64c92c3e28995485b7246d63ab3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the device and begin speaking rs232  <a href="#a74e64c92c3e28995485b7246d63ab3c8">More...</a><br /></td></tr>
 <tr class="separator:a74e64c92c3e28995485b7246d63ab3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9dff31a14f06dec2268e7763b4a2736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#aa9dff31a14f06dec2268e7763b4a2736">RequestReset</a> ()</td></tr>
 <tr class="memdesc:aa9dff31a14f06dec2268e7763b4a2736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets flag to reset the acceptor on the next message sent  <a href="#aa9dff31a14f06dec2268e7763b4a2736">More...</a><br /></td></tr>
 <tr class="separator:aa9dff31a14f06dec2268e7763b4a2736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeebbe596aec1734aeca236c69e5b50ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#aeebbe596aec1734aeca236c69e5b50ba">Dispose</a> ()</td></tr>
-<tr class="memdesc:aeebbe596aec1734aeca236c69e5b50ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases comm port and related managed resources.  <a href="#aeebbe596aec1734aeca236c69e5b50ba">More...</a><br /></td></tr>
-<tr class="separator:aeebbe596aec1734aeca236c69e5b50ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a647ca69d403b75eb8fc30bc8d74a9dbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a647ca69d403b75eb8fc30bc8d74a9dbb">Stack</a> ()</td></tr>
 <tr class="memdesc:a647ca69d403b75eb8fc30bc8d74a9dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Issue a stack command to the acceptor. Note that the acceptor must be configured to escrow mode and the bill must be in escrow. Otherwise, calling this command has no effect other than logging an error message.  <a href="#a647ca69d403b75eb8fc30bc8d74a9dbb">More...</a><br /></td></tr>
 <tr class="separator:a647ca69d403b75eb8fc30bc8d74a9dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,7 +217,7 @@ Events</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The main class that does the actual "talking" the acceptor. In the context of documentation, this object what is referred to as the master and the acceptor is the slave device. </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00014">14</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00015">15</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a53991b20098704536730f505db67787c"></a>
 <div class="memitem">
@@ -236,7 +241,7 @@ Events</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00089">89</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00037">37</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -254,10 +259,10 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stop talking to the slave and release the underlying commm port. </p>
+<p>Stop talking to the slave and release the underlying comm port. </p>
 <p>Do not use this to disable the bill acceptor: use <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f" title="Disables the bill acceptor within the time period defined by the poll rate. The poll rate (RS232Confi...">PauseAcceptance()</a></p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00110">110</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00116">116</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -276,7 +281,7 @@ Events</h2></td></tr>
 
 <p>Connect to the device and begin speaking rs232 </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00165">165</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00187">187</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -295,7 +300,7 @@ Events</h2></td></tr>
 
 <p>Releases comm port and related managed resources. </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00650">650</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00096">96</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -323,7 +328,7 @@ Events</h2></td></tr>
 <p>Returns a list of all available ports </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00100">100</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00106">106</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -340,10 +345,10 @@ Events</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Disables the bill acceptor within the time period defined by the poll rate. The poll rate (<a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#adceb74a3f0028a0b19679dad41dd7b03" title="Gets or sets the poll rate in milliseconds. The polled system is designed for the master to request i...">RS232Config.PollRate</a>, default 50 ms) is the maximum time between poll packets from master to slave. This command does not disconnect the serial port. Use <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544" title="Stop talking to the slave and release the underlying commm port. ">Close()</a> for that effect. </p>
-<p>This effectively tells the acceptor to stop accepting bill but keep reporting status. The acceptor's lights will turn off after this call takes effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a4b55d3a35f7b334b8701bcb20f2c7873" title="Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already ru...">ResmeAcceptance</a></dd></dl>
+<p>Disables the bill acceptor within the time period defined by the poll rate. The poll rate (<a class="el" href="class_pyramid_n_e_t_r_s232_1_1_r_s232_config.html#adceb74a3f0028a0b19679dad41dd7b03" title="Gets or sets the poll rate in milliseconds. The polled system is designed for the master to request i...">RS232Config.PollRate</a>, default 50 ms) is the maximum time between poll packets from master to slave. This command does not disconnect the serial port. Use <a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#af83ab197f855f69835534bf0e7c5e544" title="Stop talking to the slave and release the underlying comm port. ">Close()</a> for that effect. This effectively tells the acceptor to stop accepting bill but keep reporting status. The acceptor's lights will turn off after this call takes effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#a8b8bb64d968aeb4ca8660c8dc0805ca6" title="Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already ru...">ResumeAcceptance</a></dd></dl>
+</p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00134">134</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00138">138</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -362,7 +367,7 @@ Events</h2></td></tr>
 
 <p>Issue a reject command to the acceptor. Note that the acceptor must be configured to escrow mode and the bill must be in escrow. Otherwise, calling this command has no effect other than logging an error message. </p>
 
-<p>Definition at line <a class="el" href="_commands_8cs_source.html#l00027">27</a> of file <a class="el" href="_commands_8cs_source.html">Commands.cs</a>.</p>
+<p>Definition at line <a class="el" href="_commands_8cs_source.html#l00028">28</a> of file <a class="el" href="_commands_8cs_source.html">Commands.cs</a>.</p>
 
 </div>
 </div>
@@ -381,7 +386,7 @@ Events</h2></td></tr>
 
 <p>Sets flag to reset the acceptor on the next message sent </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00221">221</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00233">233</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -401,7 +406,27 @@ Events</h2></td></tr>
 <p>Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already running and accepting. The acceptor's lights will turn on after this command takes effect. The command will take up to Config.PollRate ms to take effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f" title="Disables the bill acceptor within the time period defined by the poll rate. The poll rate (RS232Confi...">PauseAcceptance</a></dd></dl>
 </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00152">152</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00157">157</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b8bb64d968aeb4ca8660c8dc0805ca6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PyramidNETRS232.PyramidAcceptor.ResumeAcceptance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the acceptor to bill accepting mode. This command has no effect if the acceptor is already running and accepting. The acceptor's lights will turn on after this command takes effect. The command will take up to Config.PollRate ms to take effect. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_pyramid_n_e_t_r_s232_1_1_pyramid_acceptor.html#ae6274198f233bc737d98d73c5c60a50f" title="Disables the bill acceptor within the time period defined by the poll rate. The poll rate (RS232Confi...">PauseAcceptance</a></dd></dl>
+</p>
+
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00174">174</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -420,7 +445,7 @@ Events</h2></td></tr>
 
 <p>Issue a stack command to the acceptor. Note that the acceptor must be configured to escrow mode and the bill must be in escrow. Otherwise, calling this command has no effect other than logging an error message. </p>
 
-<p>Definition at line <a class="el" href="_commands_8cs_source.html#l00011">11</a> of file <a class="el" href="_commands_8cs_source.html">Commands.cs</a>.</p>
+<p>Definition at line <a class="el" href="_commands_8cs_source.html#l00010">10</a> of file <a class="el" href="_commands_8cs_source.html">Commands.cs</a>.</p>
 
 </div>
 </div>
@@ -445,7 +470,7 @@ Events</h2></td></tr>
 
 <p>Gets or sets the RS232 Configuration </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00074">74</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00083">83</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -469,7 +494,7 @@ Events</h2></td></tr>
 
 <p>Gets the current pause state. If the acceptor is running and at least 1 bill is enabled, the acceptor is not paused. Otherwise, the acceptor is considered paused. </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00082">82</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00091">91</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -493,7 +518,7 @@ Events</h2></td></tr>
 
 <p>Returns true if the communication thread is running normally </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00069">69</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00078">78</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -517,7 +542,7 @@ Events</h2></td></tr>
 
 <p>Slave's last events </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00064">64</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00073">73</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -541,7 +566,7 @@ Events</h2></td></tr>
 
 <p>Slave's last state </p>
 
-<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00059">59</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
+<p>Definition at line <a class="el" href="_apex_validator_8cs_source.html#l00068">68</a> of file <a class="el" href="_apex_validator_8cs_source.html">ApexValidator.cs</a>.</p>
 
 </div>
 </div>
@@ -558,7 +583,7 @@ Events</h2></td></tr>
 
 <p>Raised when the cashbox is no longer detached. This only be reported if the cashbox is first attached, then missing. </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00108">108</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00094">94</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -574,7 +599,7 @@ Events</h2></td></tr>
 
 <p>Raised once a note has been successfully stacked. </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00068">68</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00060">60</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -590,7 +615,7 @@ Events</h2></td></tr>
 
 <p>Raised by the master in the event that communication fails </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00050">50</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00045">45</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -606,7 +631,7 @@ Events</h2></td></tr>
 
 <p>subscribe to this event to be notified of when and what denomination is in escrow. If you are running in escrow mode, you may then decide whether to stack or reject the note based upon the denomination. </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00088">88</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00077">77</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -622,7 +647,7 @@ Events</h2></td></tr>
 
 <p>Raised when the acceptor reports any event. Events are transient in that they are only reported once to the master. </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00011">11</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00012">12</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -638,7 +663,7 @@ Events</h2></td></tr>
 
 <p>Subscribe to serial data received and transmission events. Useful for debugging. </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00114">114</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00100">100</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>
@@ -654,7 +679,7 @@ Events</h2></td></tr>
 
 <p>Raised when the acceptor reports a state that is different from the previously recorded state. Note: In escrow mode the Escrowed event will be raised as </p>
 
-<p>Definition at line <a class="el" href="_events_8cs_source.html#l00031">31</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
+<p>Definition at line <a class="el" href="_events_8cs_source.html#l00029">29</a> of file <a class="el" href="_events_8cs_source.html">Events.cs</a>.</p>
 
 </div>
 </div>

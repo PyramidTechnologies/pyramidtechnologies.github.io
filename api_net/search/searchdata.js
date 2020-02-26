@@ -4,10 +4,11 @@ var indexSectionsWithContent =
   1: "cdeiprs",
   2: "p",
   3: "bcdegprstw",
-  4: "efs",
-  5: "abcefimnoprstw",
-  6: "cdefinprst",
-  7: "o"
+  4: "p",
+  5: "efs",
+  6: "abcefimnoprstw",
+  7: "cdefinprst",
+  8: "o"
 };
 
 var indexSectionNames =
@@ -16,10 +17,11 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "enums",
-  5: "enumvalues",
-  6: "properties",
-  7: "events"
+  4: "variables",
+  5: "enums",
+  6: "enumvalues",
+  7: "properties",
+  8: "events"
 };
 
 var indexSectionLabels =
@@ -28,9 +30,10 @@ var indexSectionLabels =
   1: "Classes",
   2: "Namespaces",
   3: "Functions",
-  4: "Enumerations",
-  5: "Enumerator",
-  6: "Properties",
-  7: "Events"
+  4: "Variables",
+  5: "Enumerations",
+  6: "Enumerator",
+  7: "Properties",
+  8: "Events"
 };
 
