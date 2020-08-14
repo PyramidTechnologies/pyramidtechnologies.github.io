@@ -139,7 +139,7 @@ RS232Configuration.INSTANCE.setEnableMask(0x3);
 <div class="panel panel-info">
 <div class="panel-heading">Code</div>
 <div class="panel-body">
-The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-desktop-sample" rel="tooltip" title="Java API Sample - Desktop" target="_blank">here</a>.</p></p>
+The source code for this sample is available <a href="https://github.com/PyramidTechnologies/Java-API-desktop-sample" rel="tooltip" title="Java API Sample - Desktop" target="_blank">here</a>.
 <div class="alert alert-danger">This requires a bill validator and serial connection between your PC and the bill validator.</div>
   </div>
 </div>
